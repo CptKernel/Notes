@@ -1,0 +1,157 @@
+6/4/18:
+	- Got everything setup today. Need to continue watching the plural sight videos for the on boarding. Following along. 
+		I did not make it very far in the actual following along part yet, but tomorrow should be easy going. I got up to 
+		making the app service in the videos. Didn't want to actually start it until tomorrow when I could actually 
+		follow through and finish the tutorial. These videos are for developing with .NET on Microsoft Azure. 
+6/5/18:
+	- Ran into an issue with being directly connected to the Internet at dfs because I had restricted access to the 
+		socket I needed. Cant remember the exact issue that I was having that caused me to have to disconnect.
+	- Had to figure out how the entity framework migrations worked in order to get my azure SQL database to work and update
+		properly. Can see some user information through visual studio, and the tables set up there were set up automatically
+		by the entity framework migration. 
+	- Started to work on the CosmosDB but unfortunately Allen Scot left out a lot of the coding that I will need to follow 
+		along and it is taking me way to long to replicate. Going to skip following these parts on the later half of section 5.
+	- I stopped on section 6 for today as he was going over ImagesController. All my code should be done associated with 
+		that though. Finish this path tomorrow!
+6/6/18: 
+	- Found the issue that I had with the network. I was not able to push anything with git while directly connected to 
+		the Internet. Ran into an issue creating extra tabs on the nav bar of the website. Solved by comparing my files 
+		with Scott's. 
+	- Had to copy 2 lines over from the Views\Shared\_Layout.cshtml doc. Spent way to long trying to get my courses
+		menu to work. I was missing a statement in my startup.cs file. Under the //Add application services comment. 
+	- Internet went down so I called it a day right as I got back up to the Functions in azure. The website is fully 
+		functioning now. 
+6/7/18:
+	- Completed the first path today. Very little problems except for the last part of the course where I would have needed
+		more permissions to set up the release phase in visual studio team services. 
+	- Also I could not get the cognitive facial API to spit out information on my actual website once I had uploaded a 
+		picture 
+	- Starting the next path on Plural Sight, this on is on cloud patterns and architecture.
+	- Unable to follow along with the cloud and architecture videos because he is using the release service provided by the 
+		visual studio team services that I cannot set up because I do not have the required permissions to do so. So for now
+		I am just following along and taking notes.
+	- Stopped for the day on the scalability section of the course.
+6/8/18:
+	- Got through most of the cloud and architecture videos today. Ending on the testing module
+	- Richie gave us a brief run down of what Donnelley does and how the inner workings work.
+6/11/18:
+	- Started the OWASP top ten videos but stopped to watch something else.
+	- Watched and finished the c# .NET tutorials on plural sight. Very helpful with some questions I had earlier.
+	- Started watching the C# ASP.NET Core videos. Did not finish. 
+6/12/18:
+	- Continue watching the ASP.NET Core videos, Hoping to finish them today. 
+	- Stopped on the ASP.NET Core videos and switched back to the OWASP videos. Figured I didn't need to much understanding 
+		to learn about security threats. Trying to get through most of this today so I can stay caught up with everyone else
+6/13/18:
+	- Goal for today is to get through the rest of the OWASP top 10 and then work on the ASP.NET Core videos some more. 
+	- Heard about proxy tool Fiddler. Look into for later possibly. 
+	- Made it through the OWASP videos. Got to an alright stopping point on the ASP.NET framework videos. 
+6/14/18:
+	- Planning on finishing the video set today if at all possible. 
+	- Finished the building secure services and applications video series by the glorious Scott Allen.
+	- Got close to finishing. I think I have like 2 more hours left of the videos to get through. 
+6/15/18:
+	- Really actually going to finish the videos today. Listening to Deberah. Its quite awful
+	- Finished all of the videos! Going to find some more stuff to brush up on for the rest of the day.
+	- Talked with other interns for a while after about jobs and school and everything. 
+6/18/18:
+	- Had a meeting with Richie about the architecture of the programs that ArcSuite is working and and he then gave us a 
+		high level overview of what our project was going to be. 
+	- Started looking more into Git at Richie's request. Need to look more into Angular as well. He says that is what we will
+		be doing a lot of for our projects. 
+	- Meeting at 2:30 till 3:30 today over agile processes. After that there will be another meeting over Git repos. Ryan 
+		went over the agile stuff and Jack went over the Git stuff. 
+	- Deleted my resource groups on azure today as well seeing how I am now done with all of those videos. 
+6/19/18:
+	- Got the template for the UI today. We started to look at azure search more and we got it to work through an ASP.Net 
+		core application through the azure search SDK. 
+	- Ran into an issue with the azure storage explorer. Not sure what the issue is, but I will try to figure it out again
+		tomorrow. 
+6/20/18:
+	- Continued working on the tour of heroes to learn more about angular today. 
+	- Met with Richie to discuss what he have done with the Azure search at 10:30 today. Did not get to look over the code 
+		that we had yet. Meeting again soon. This meeting he discussed::
+			> He talked about figuring out what all the options did in the portal
+			> Need to look into testing code before release. Recommended book: Clean Coder
+			> What to expect in the real world
+			> Solution owners and what they do
+	- We figured out how to get everything basically automated in the .Net application
+6/21/18:
+	- Kept doing the tour of heroes in the morning and looked into the azure search SDK and the config files for that.
+	- Looked at unit testing info and tutorials. 
+	- Met with Richie to go over code for the Azure search.
+6/22/18:
+	- Today was spent looking at testing in Angular. 
+	- We also were curious about why we are using Angular over React so we looked into that a little more as well
+	- Richie worked from home today so it was a little bit of a struggle to continue to find things to look into. Not that
+		we don't have enough to learn as of right now but until we start using our new knowledge on the project it is hard 
+		to retain the information. 
+6/25/18:
+	- Talked with Tim about CosmosDb and the stuff people might be searching for within it. 
+	- Make the first mock up of the ag grid that we are using. We used hard coded info from the audit database. Need to make
+		the search bar for it still. It does not have to work with everything else yet. 
+6/26/18:
+	- Worked on the audit searches navbar in angular and got that done
+	- Figured out a lot of stuff fro git and committed and pushed my changes
+	- Wrote the tests I needed for my navbar
+6/27/18:
+	- Did a pull request into the master branch this morning from the F-ag-search-ui. 
+	- Started working on the back-end of the audit search page and planned out a lot of the structure so we can get started
+		tomorrow. 
+	- Decided to make a model for the audit data we will be using so we can interpret the information that Azure search will
+		give back to us. 
+6/28/18:
+	- Worked on the back-end of the search stuff today. Got done with the basic stuff but we still need to write tests for
+		our code. 
+6/29/18:
+	- Going to be writing the unit tests for the back-end today. Need to figure out mock and xUnit. These are the testing 
+		tools that we will be using for our unit tests.
+	- Moq it used to make testing easier when there are dependencies in the methods or classes. Super useful to know. Unit 
+		tests are something I should work on using more often in my everyday code. 
+7/2/18:
+	- Started the day off looking at dependency injection and moq. 
+	- Worked on getting the front end testing working. 
+	- Made a PR into the master branch and started to work on the recommended changes that Tim had for us. 
+7/3/18:
+	- Waited on the front end code to be reviewed.
+	- Worked on adding a loading bar for when someone searches. 
+7/5/18:
+	- Waited on front end review and had Tim help us with the appsettings.json files
+	- Started working on the back-end code for a date range filter
+7/6/18:
+	- Finished the back-end code for the date time filter and made a pull request.
+		- Code is conditional on whether or not the start date and end date are passed in through the query string. 
+		- The above logic may have to be changed because I am using the String.IsNullOrEmpty and we may want the user to be
+			able to have the end date empty or the start date empty. This will be patched later after we talk with Richie
+	- Waiting on hearing back from Richie on where to go next with the application. 
+7/9/18:
+	- Waiting on someone to give us some direction on where to go next with this project. 
+	- While I have been waiting I am working on some Dynamic Programming problems.
+	- Talked with Richie and then began setting up continuous integration and deployment. When we built from CI it broke.
+7/10/18:
+	- Worked on making it so that the user can enter partial searches. This was done using a regex. 
+	- We made the search box twice as big.
+	- Started looking into server side paging.
+7/11/18:
+	- I worked on fixing bugs with the search and making it so that currentValue and newValue would show up when people 
+		searched for things.
+	- Looked into Dependency injection more today and specifically Structure map since that is what the company is using for
+		their dependency injection. 
+7/12/18:
+	- Fixed more bugs with the site and updated the development branch. It is a good idea to have a nice structure for how 
+		you want your source control to work before you set it up and start working. It is a pain to keep switching after 
+		everyone already has started working.
+7/13/18:
+	- Tried to refactor the code to make better use of dependency injection. Its a mess of dependencies right now. 
+	- Messed around with python and the command line for a while, while we waited on the pull request to be reviewed
+7/16/18:
+	- Finished the pull request. 
+	- Fixed a bug with the front end stuff. 
+7/17/18:
+	- Spent all day trying to figure out how to test my logic for the date filter
+	- Talked with Tim for a long while and decided to make a factory and that will make it so my code is testable
+7/18/18:
+	- Made the factory and factory interface in the morning
+	- Did a PR for my feat branch into development after I had fixed some logic
+	- Fixed a bug with dateTo logic and empty search results
+	- Made a PR from development into stage

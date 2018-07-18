@@ -1,0 +1,15 @@
+Will azure search have to reindex the collection if there are new entries in the db?
+Why can we only search on strings?
+Look into how azure search indexes.
+If we change an item from not searchable to searchable will it have to redo?
+What was the analyzer and the other thing in the indexer?
+how does the timeframe of the indexer updates effect performance?
+Look at track deletions
+Advanced options in the create the indexer portal
+
+unit testing
+integration testing
+end to end testing
+regresion testing
+
+Book: Clean coder

@@ -1,0 +1,7 @@
+- You can interface with Azure search through REST API or .NET SDK. 
+- Azure search is a full text search that can use simple query syntax or a more complex Lucene query syntax (fuzzy search, proximity search, term boosting)
+- We did not utilize this but azure search also has the ability to use cognitive search which can do image and text analysis to on an indexing pipeline to 
+	extract text and raw data. Can make scanned JPEGS searchable through character recognition. 
+- Azure search indexes can accept data from any source as long as it is submitted in a JSON format.
+- Able to do Geo-searchs, Linguistic analysis.
+- 
