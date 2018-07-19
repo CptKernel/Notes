@@ -9,7 +9,7 @@
 	- Had to figure out how the entity framework migrations worked in order to get my azure SQL database to work and update
 		properly. Can see some user information through visual studio, and the tables set up there were set up automatically
 		by the entity framework migration. 
-	- Started to work on the CosmosDB but unfortunately Allen Scot left out a lot of the coding that I will need to follow 
+	- Started to work on the CosmosDB but unfortunately Allen Scott left out a lot of the coding that I will need to follow 
 		along and it is taking me way to long to replicate. Going to skip following these parts on the later half of section 5.
 	- I stopped on section 6 for today as he was going over ImagesController. All my code should be done associated with 
 		that though. Finish this path tomorrow!
@@ -155,3 +155,12 @@
 	- Did a PR for my feat branch into development after I had fixed some logic
 	- Fixed a bug with dateTo logic and empty search results
 	- Made a PR from development into stage
+7/19/18:
+	- Finished PR from development into stage
+	- Talked with Joel about app
+		> Want to see which users changed
+		> Want to look for anomalies when a user updates something they haven't before
+		> Give presentation on Azure Search during stand up
+		> Present the application to CTO once we are done with it
+	- Started working on new changes to the site that Joel suggested and talking with everyone we need to in order to make
+		things happen.
