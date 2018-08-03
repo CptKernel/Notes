@@ -164,3 +164,53 @@
 		> Present the application to CTO once we are done with it
 	- Started working on new changes to the site that Joel suggested and talking with everyone we need to in order to make
 		things happen.
+7/20/18:
+	- Waited to hear back from Richie and spent a lot of the day trying to figure out how often we shoud index the db so the
+		results that are being searched on are up to date. 
+	- Landed on every two hours for now. 
+7/23/18:
+	- Got in to work early. Going to look into Azure search for the stand up we will have to give eventually.
+	- Actually updated the indexer so that it ran every 2 hours on the site. I had made the changes but we had not actually
+		made a new indexer since then. I want to see what the metrics look like for the every 2 hour cycle. It seems that 
+		nothing happens on the weekend because when the indexers ran on the 22 and this morning it only added 1 and 3 new 
+		documents to the index. This will likely change as time goes on but it is interesting that so little is done on the 
+		weekend compaired to the weekdays.
+	- Messed with front end stuff and added logic so that the date range facet would work
+7/24/18:
+	- Going to look at cleaning up the backend code to start out the morning. 
+	- Looked into neural nets more and found a data set to use to train for handwriting analysis from MNIST.
+7/25/18:
+	- Worked on tests for the front end code that varad has been working on. Lots of logic added since the last PR
+	- Looked into machine learning a little bit more. Started to try to get mine to actually work. Ran into problems with 
+		python not wanting to recognize its built in functions.
+7/26/18:
+	- Made the PR into dev and got it approved. 
+	- Ran into some issues with the builds becasue of a method name change we had. Fixed those pretty easily.
+	- Ran into an issue with one of our tests because the server that was running out web app and set up for the CI was in
+		a different timezone then us and our test was working on hard coded times that we expected to be 5 hours ahead of 
+		UTC but that was not the case because the timezone the server was in is not 5 hours off. 
+7/27/18:
+	- Presented out web app to the devs. Got some good ideas for things to look into and test more. Didnt really get the 
+		chance to highlight the fact that we are using Azure search in the most minimal way possible, because it can do 
+		things like cognitive search, geo-search, and lingustic analysis.
+	- Talked with Richie about a few things we could do to polish up the application. We should be meeting with a UX guy 
+		to go over our design and layout of the app. 
+	- Meeting with the CTO at some point next week to go over the sight.   
+7/30/18:
+	- Worked on the presentation for the CTO, VP of Arcsuite, and the CAO.
+	- Talked with Richie and Joel about the use cases for the app we made. Sounds like it could be clients calling in trying
+		to figure out who changed what or when or why something was changed. 
+	- Also could be for managers to track what employees have made changes so they can approve everything. Its good for 
+		tracking possible mistakes and issues.
+7/31/18:
+	- Let Richie look at the slides for the presentation. He said they looked good. Gave us a few things to add to them. 
+	- Sent Joe the link to the site we made so that he can look at it. He is Donnelley's UX guy. Will follow up with him 
+		tomorrow
+8/1/18:
+	- Had a use case for our site come up. We are having trouble useing our site to help though. Issues with mapping the 
+		client id to client code. Spent the whole day working to figure that out. Seems to be an issue with the 
+		authorization token. We will have to impersonate someone to get access. The issue with that is that it is not a 
+		long term fix because the token is refreshed every so often and the sight has to still be open. 
+8/2/18:
+	- Went over our presentation with Richie today and he seemed to like it. 
+	- Talked about DI with the other interns for a while and helped them understand it a little better I hope
