@@ -214,3 +214,7 @@
 8/2/18:
 	- Went over our presentation with Richie today and he seemed to like it. 
 	- Talked about DI with the other interns for a while and helped them understand it a little better I hope
+8/3/18:
+	- We figured out how to get the client code from the client ID. It seems that we have had the authorization off on our
+		site since the beginining since we couldnt figure out how to get the proper headers on it. 
+	- Going to work on getting everything working Monday hopefully.
