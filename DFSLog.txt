@@ -218,3 +218,21 @@
 	- We figured out how to get the client code from the client ID. It seems that we have had the authorization off on our
 		site since the beginining since we couldnt figure out how to get the proper headers on it. 
 	- Going to work on getting everything working Monday hopefully.
+8/6/2018:
+	- Worked on getting the clients SDK to work properly and cleaned up the code that we had from friday.
+	- Brushed up on my linear algebra in the time I had left. Still need to keep brushing up on stuff so I am ready for my
+		Machine learning class that is coming up quick. 
+8/7/2018:
+	- We have our presentation to the CTO Cynthea today. There will be a lot of other higher ups there as well. That will be
+		at 4pm. Should go well. We have had plenty of time to prepare for it. 
+	- My time here is almost up. There isnt a whole lot left for me to do in my limited time. There is still some things 
+		that we need to add to our app but I dont have enought time to actually do those things and they will all require us
+		working more with other developers here to figure out our problems. We need to add a way to search the fund code as 
+		well as the client code. We can hit an API for the client code from client Id as of right now, we just think that we
+		are hitting the wrong one because we are not getting any results for the client ids that are in the database we are 
+		hitting for the audit data right now. Need to talk with someone to figure out the issue or get proper access to the 
+		uat database for clients. 
+8/8/18:
+	- Not much for me to do toady. Gotta go home early so i can move all of my big stuff out of my room. I am extremly tired
+		it seems like my exhaustion may be because I ran out of my Concerta yesterday and its been 24 hours since i took it.
+		Withdrawl seems like a strong word but it sure doesnt feel good. 
