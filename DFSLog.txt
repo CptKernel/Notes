@@ -236,3 +236,9 @@
 	- Not much for me to do toady. Gotta go home early so i can move all of my big stuff out of my room. I am extremly tired
 		it seems like my exhaustion may be because I ran out of my Concerta yesterday and its been 24 hours since i took it.
 		Withdrawl seems like a strong word but it sure doesnt feel good. 
+8/9/18:
+	- Not sure what to do today. Things have kind of come to a stop for the most part. We are still trying to figure out 
+		the correct db we need to hit to get the client codes for the ids that we have. Issue is that we are kind of low 
+		priority right now. There are PD's that everyone is working on so it been kind of hard to find someone that has the
+		time to help us out. This is my last day though as well so that kind of adds to the uncertainty of what to do. Dont 
+		want to start something that I wont be able to finish. 
